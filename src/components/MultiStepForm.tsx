@@ -1,7 +1,7 @@
 import { FormProvider, useForm } from "react-hook-form"
 import { ServicesStep } from "./Steps/ServicesStep"
 import { useState } from "react"
-import { PersonalInformation } from "./Steps/PersonalInformation"
+import { PersonalInformationStep } from "./Steps/PersonalInformationStep"
 
 export function MultiStepForm() {
   const [currentStep, setCurrentStep] = useState(2)
@@ -20,7 +20,7 @@ export function MultiStepForm() {
 
   const steps = [
     <ServicesStep />,
-    <PersonalInformation />
+    <PersonalInformationStep />
   ]
 
 

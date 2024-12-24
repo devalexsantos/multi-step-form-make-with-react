@@ -1,7 +1,7 @@
 import { useFormContext } from "react-hook-form";
 import { TimelineSteps } from "../TimelineSteps";
 
-export function PersonalInformation() {
+export function PersonalInformationStep() {
   const { register } = useFormContext();
 
   return (
