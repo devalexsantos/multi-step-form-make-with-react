@@ -1,5 +1,6 @@
 import { Bug, CodeXml, LayoutTemplate, PencilRuler } from "lucide-react";
 import { useFormContext } from "react-hook-form";
+import { TimelineSteps } from "../TimelineSteps";
 
 export function ServicesStep() {
   const { watch, setValue } = useFormContext();
@@ -31,6 +32,7 @@ export function ServicesStep() {
 
   return (
     <div className="flex flex-col text-center gap-2">
+      <TimelineSteps step={1} />
       <h2 className="text-lg font-semibold">What service do you need?</h2>
       <p className="text-sm text-zinc-600">Tell us what you need! Briefly describe the service or assistance you're looking for in the space below.</p>
       <div className="flex items-center gap-3 mt-8">
