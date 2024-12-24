@@ -7,7 +7,7 @@ export function MultiStepForm() {
   const methods = useForm({
     mode: "onTouched",
     defaultValues: {
-      service: "",
+      service: "website-design",
       name: "",
       email: "",
       phone: "",
