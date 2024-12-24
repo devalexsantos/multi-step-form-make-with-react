@@ -63,7 +63,7 @@ export function MultiStepForm() {
             (
               <button
                 type="submit"
-                className="text-sm bg-sky-800 text-white px-4 py-2 rounded-full">
+                className="text-sm bg-green-700 text-white px-4 py-2 rounded-full">
                 Submit
               </button>
             )
