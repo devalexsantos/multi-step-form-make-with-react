@@ -27,7 +27,7 @@ export function PersonalInformationStep() {
           <span className="text-xs text-zinc-600 px-3">Email:</span>
           <input
             {...register("email", { required: true })}
-            type="text"
+            type="email"
             placeholder="Your Best Email"
             className="px-3 py-2 w-full text-sm border rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-800"
           />
